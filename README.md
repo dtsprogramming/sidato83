@@ -5,17 +5,17 @@ class Student
          private string school = "University of Advancing Technology";
          private string major = "Game Programming"
          
-         private int currentCredits = 111;
-         private int totalCreditsNeeded = 120;
+         private int totalCreditsToGraduate = 120;
+         private int currentCredits = 111;         
   
   
          void CalculateGraduation(int credits)
          {
-              if (currentCredits < totalCreditsNeeded)
+              if (currentCredits < totalCreditsToGraduate)
               {
                   currentCredits += credits;
               }
-              else if (currentCredits >= totalCreditsNeeded)
+              else if (currentCredits >= totalCreditsToGraduate)
               {
                   Console.WriteLine("GRADUATION!");
               }
