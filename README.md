@@ -6,7 +6,7 @@ class Student
          private string major = "Game Programming"
          
          private int totalCreditsToGraduate = 120;
-         private int currentCredits = 111;         
+         private int currentCredits = 119;         
   
   
          void CalculateGraduation(int credits)
