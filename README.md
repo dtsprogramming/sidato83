@@ -1,12 +1,12 @@
-class Student
+class Education
 
     {    
          private string name = "Dan";
          private string school = "University of Advancing Technology";
-         private string major = "Game Programming"
+         private string major = "(BS) Game Programming"
          
          private int totalCreditsToGraduate = 120;
-         private int currentCredits = 119;         
+         private int currentCredits = 120;         
   
   
          void CalculateGraduation(int credits)
@@ -17,12 +17,12 @@ class Student
               }
               else if (currentCredits >= totalCreditsToGraduate)
               {
-                  Console.WriteLine("GRADUATION!");
+                  Console.WriteLine("BACHELOR'S DEGREE OBTAINED!");
               }
          }
     }
 
-class Programmer : Student
+class Programmer : Education
 
     {
          private string[] programmingLanguages = { "C#", "C++", "Python" };
